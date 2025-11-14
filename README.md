@@ -1,42 +1,53 @@
 # 9xcongit Installer
 
 ## Overview
-This shell script is designed to automate the installation of **Foxytoux**, a lightweight Ubuntu environment using **Proot**.
+
+The 9xcongit Installer is a shell script designed to automate the installation of 9xcongit, a lightweight Ubuntu environment running on Proot. This allows users to easily set up and run a customized Ubuntu system on various architectures.
 
 ## Prerequisites
-Before running the installer, ensure that your system meets the following requirements:
-- Bash shell environment
+
+Before you begin, ensure that the following are available on your system:
+
+- A Bash shell environment
 - Internet connectivity
-- **Wget** installed
+- `wget` installed
 - Supported CPU architectures:
-  - `x86_64` (amd64)
-  - `aarch64` (arm64)
+  - x86_64 (amd64)
+  - aarch64 (arm64)
 
 ## Installation
 
-### 1. Clone the repository:
-```bash
-git clone https://github.com/9xcongit/freeroot.git
-cd freeroot
+Follow these steps to install 9xcongit:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/9xcongit/freeroot.git
+    cd freeroot
+    ```
+
 2. Run the installer script:
-./root.sh
-or
-bash root.sh
-Supported Architectures
+    ```bash
+    ./root.sh
+    ```
+    or
+    ```bash
+    bash root.sh
+    ```
 
-x86_64 (amd64)
+## Supported Architectures
 
-aarch64 (arm64)
+- x86_64 (amd64)
+- aarch64 (arm64)
 
-License
+## License
 
-This Foxytoux Installer script is released under the MIT License
-.
+This project is licensed under the MIT License.
 
-Credits
+## Credits
 
-Foxytoux Installer is developed and maintained by RecodeStudios.Cloud.
+- 9xcongit Installer is developed and maintained by [9xcongit.com](https://9xcongit.com).
+- Special thanks to [dxomg](https://github.com/dxomg) for the Proot code that powers this installer.
 
-This installer has been made possible thanks to dxomg for his Proot code.
+## Disclaimer
 
-Note: This script is intended for educational and experimental purposes. Use it responsibly and at your own risk.
+This script is intended for educational and experimental purposes only. Use it responsibly and at your own risk.
