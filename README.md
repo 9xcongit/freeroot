@@ -46,7 +46,7 @@ This project is licensed under the MIT License.
 ## Credits
 
 - 9xcongit Installer is developed and maintained by [9xcongit.com](https://9xcongit.com).
-- Special thanks to [dxomg](https://github.com/dxomg) for the Proot code that powers this installer.
+- Special thanks to [dxomg](https://github.com/9xcongit) for the Proot code that powers this installer.
 
 ## Disclaimer
 
